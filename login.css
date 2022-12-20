@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    /* background: linear-gradient(red, blue, yellow, orange); */
+    background: #46cb46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background: #fff;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 350px;
+    border-radius: 5px;
+    min-width: 300px;
+}
+
+form .input-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    background: #eaeaea;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+form .input-field ion-icon {
+    fill: #999;
+    margin-left: 15px;
+    font-size: 1.5rem;
+}
+
+form .input-field input {
+    font-size: 1rem;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: #999;
+    width: 100%;
+    padding: 15px;
+    padding-left: 5px;
+    color: black;
+    font-weight: 500;
+}
+
+form button {
+    margin-top: 30px;
+    border: 0;
+    outline: 0;
+    background: blue;
+    color: white;
+    width: 115px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+form h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.logo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 200px;
+}
+
+form .error-box {
+    background: #e8aeae;
+    border: 1px solid red;
+    padding: 8px 10px;
+    color: #1b1b1b;
+    font-size: 1.1rem;
+    margin: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 2px;
+    display: none;
+}
