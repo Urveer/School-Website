@@ -34,17 +34,20 @@ form .input-field ion-icon {
     font-size: 1.5rem;
 }
 
-form .input-field input {
+form .input-field textarea {
     font-size: 1rem;
     border: 0;
     outline: 0;
     background: transparent;
     color: #999;
-    width: 100%;
+    width: 250px;
     padding: 15px;
-    padding-left: 5px;
     color: black;
     font-weight: 500;
+    resize: none;
+    max-height: 330px;
+    /* height: 60px; */
+    height: 25px;
 }
 
 form button {
@@ -64,11 +67,11 @@ form button {
 }
 
 form h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
-    letter-spacing: 1.1px;
+    letter-spacing: 1px;
     font-weight: 600;
-    margin: 20px;
+    margin: 15px;
 }
 
 form .error-box {
@@ -82,34 +85,4 @@ form .error-box {
     margin-right: 0;
     border-radius: 2px;
     display: none;
-}
-
-@media (max-width: 420px) {
-    form {
-        padding: 20px 20px;
-        min-height: 350px;
-        min-width: 200px;
-    }
-
-    form h1 {
-        font-size: 1.8rem;       
-    }
-
-    form .input-field ion-icon {
-        margin-left: 10px;
-        font-size: 1.3rem;
-    }
-
-    form .input-field input {
-        font-size: 1rem;
-        border: 0;
-        outline: 0;
-        background: transparent;
-        color: #999;
-        width: 100%;
-        padding: 14px;
-        padding-left: 5px;
-        color: black;
-        font-weight: 500;
-    }
 }
