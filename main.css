@@ -8,10 +8,15 @@
     text-decoration: none;
 }
 
+:root {
+    --red: #e72d2d;
+    --green: #6ef56e;
+    --blue: #1f87e8;
+}
+
 body {
     min-height: 95vh;
-    /* background: linear-gradient(red, blue, yellow, orange); */
-    background: #6ef56e;
+    background: var(--green);
 }
 
 main {

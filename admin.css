@@ -9,7 +9,7 @@
 .navigation a {
     border: 0;
     outline: 0;
-    background: #1f87e8;
+    background: var(--blue);
     width: 100%;
     color: white;
     font-size: 1.3rem;
@@ -20,7 +20,7 @@
 }
 
 .navigation a#logout {
-    background: #e72d2d;
+    background: var(--red);
 }
 
 .button-container {
